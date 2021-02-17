@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container my-5 text-center ">
+        <div class="jumbotron  m-auto p-5  w-75 ">
+            <h1>Smart Login System</h1>
+                    <input type="text" class="form-control my-3" id="upname" placeholder="Enter your name">
+                    <input type="text" class="form-control my-3" id="upemail" placeholder="Enter your email">
+                    <input type="text" class="form-control my-3" id="uppassword" placeholder="Enter your password">
+                    <p id="error"></p>
+                    <button type="submit" id="submit" onclick="signup()" class="btn btn-outline-info btn-block my-4">Sign Up</button>
+                <div class="mt-3 text-white">
+                    <span>Don’t have an account?</span>
+                    <a href="index.html" class=" text-white">Signin</a>
+                </div>
+        </div>
+    </div> <!-- /container -->
+    <script src="script.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
